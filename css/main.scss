@@ -1,0 +1,119 @@
+---
+---
+
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: Template name: Baleon
+:: Baleon is a stylish and multifunctional theme for Jekyll, perfect for creating portfolios and blogs. With it, you can quickly and easily create a stylish website that highlights your work and publications. Its intuitive interface, responsive design, and numerous customizable options make Baleon an excellent choice for professionals looking to showcase their projects in the best light.
+:: Template Author: Anvod Studio (Artem Sheludko)
+:: Version: 1.1.0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: 1-Tools and Libs
+    1.1-Normalize
+    1.2-Reset
+    1.3-Shared
+    1.4-Syntax Highlighting
+    1.5-Grid
+    1.6-Splide
+:: 2-Base Styles
+    2.1-Base
+:: 3-Modules
+    3.1-Header
+    3.2-Sidebar
+    3.3-Projects
+    3.4-Section Testimonials
+    3.5-Article
+    3.6-Section FAQ
+    3.7-Sections
+    3.8-Section Subscribe
+    3.9-Pagination
+    3.10-Footer
+    3.11-Gallery
+    3.12-Buttons
+    3.13-Contact
+:: 4-Layouts
+    4.1-Post + Page
+    4.2-Tags
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+{% include_relative _0-settings/variables.scss %}
+{% include_relative _0-settings/color-scheme.scss %}
+{% include_relative _0-settings/mixins.scss %}
+{% include_relative _0-settings/helpers.scss %}
+
+
+/* Font Awesome (v6.7.2) */
+{% include_relative _0-settings/brands.scss %}
+{% include_relative _0-settings/solid.scss %}
+{% include_relative _0-settings/regular.scss %}
+{% include_relative _0-settings/fontawesome.scss %}
+
+
+/* =======================
+:: 1-Tools and Libs
+======================= */
+/* >>>>>>>>>>>>>> 1.1-Normalize <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/normalize.scss %}
+/* >>>>>>>>>>>>>> 1.2-Reset <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/reset.scss %}
+/* >>>>>>>>>>>>>> 1.3-Shared <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/shared.scss %}
+/* >>>>>>>>>>>>>> 1.4-Syntax Highlighting <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/syntax-highlighting.scss %}
+/* >>>>>>>>>>>>>> 1.5-Grid <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/grid.scss %}
+/* >>>>>>>>>>>>>> :: 1.6-Splide <<<<<<<<<<<<<<< */
+{% include_relative _1-tools/splide.scss %}
+
+
+/* =======================
+:: 2-Base Styles
+======================= */
+/* >>>>>>>>>>>>>> 2.1-Base <<<<<<<<<<<<<<< */
+{% include_relative _2-base/base.scss %}
+
+
+/* =======================
+:: 3-Modules
+======================= */
+/* >>>>>>>>>>>>>> :: 3.1-Header <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/header.scss %}
+/* >>>>>>>>>>>>>> :: 3.2-Sidebar <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/sidebar.scss %}
+/* >>>>>>>>>>>>>> :: 3.3-Projects <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/projects.scss %}
+/* >>>>>>>>>>>>>> :: 3.4-Section Testimonials <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/section-testimonials.scss %}
+/* >>>>>>>>>>>>>> :: 3.5-Article <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/article.scss %}
+/* >>>>>>>>>>>>>> :: 3.6-Section FAQ <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/section-faq.scss %}
+/* >>>>>>>>>>>>>> :: 3.7-Sections <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/sections.scss %}
+/* >>>>>>>>>>>>>> :: 3.8-Section Subscribe <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/section-subscribe.scss %}
+/* >>>>>>>>>>>>>> :: 3.9-Pagination <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/pagination.scss %}
+/* >>>>>>>>>>>>>> :: 3.10-Footer <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/footer.scss %}
+/* >>>>>>>>>>>>>> :: 3.11-Gallery <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/gallery.scss %}
+/* >>>>>>>>>>>>>> :: 3.12-Buttons <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/buttons.scss %}
+/* >>>>>>>>>>>>>> :: 3.13-Contact <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/contact.scss %}
+
+
+/* =======================
+:: 4-Layouts
+======================= */
+/* >>>>>>>>>>>>>> :: 4.1-Post + Page <<<<<<<<<<<<<<< */
+{% include_relative _4-layouts/post.scss %}
+/* >>>>>>>>>>>>>> :: 4.2-Tags <<<<<<<<<<<<<<< */
+{% include_relative _4-layouts/tags.scss %}
