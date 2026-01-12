@@ -4,7 +4,7 @@ title: Behzad Golshan
 #logo: "/images/logo.jpg" # You can add own logo. For example '/images/logo.png'.
 #logo_dark: "/images/logo.jpg"
 description: Behzad's 🏠-page 
-color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
 #-------------------------------
@@ -31,7 +31,7 @@ cta_button:
 author:
   author_intro: Hi, I’m Behzad 👋
   author_name: Behzad Golshan
-  author_role: GenAI @ Google DeepMind
+  author_role: "GenAI @ Google DeepMind<br>Email: bzgolshan@gmail.com"
   author_avatar: /images/profile.jpg
 
 
@@ -39,7 +39,7 @@ author:
 # Sidebar Section Settings
 sidebar:
   sidebar_title: AI Researcher / Engineer
-  sidebar_description: I work on artificial intelligence with a focus on large language models. More specifically, I work on post-training models which includes all the good stuff like SFT, RL, Reasoning and Evals. My background is in machine learning, and much of my work sits between theory, experimentation, and real-world systems. <br><br> This site is where I write to think; notes, essays, and ongoing explorations about LLMs, model behavior, and learning systems (often before the ideas are fully formed). 
+  sidebar_description: "I work on large language models with a focus on post-training which includes SFT, RL, reasoning capabilities, and model evaluation.<br><br> This site is where I write to think: sharing notes, essays, and ongoing explorations about LLMs, model behavior, and learning systems."
 
 # Social Links
 social:
