@@ -1,7 +1,7 @@
 /* Post + Page */
 .post-head,
 .page-head {
-  max-width: 960px;
+  max-width: 780px;
   margin: 0 auto 32px;
 
   &.without-image {
@@ -110,6 +110,7 @@
   }
 
   @media (max-width: $desktop) {
+
     .post-info,
     .page-info {
       margin-bottom: 24px;
@@ -127,6 +128,7 @@
   }
 
   @media (max-width: $mobile) {
+
     .post-title,
     .page-title {
       font-size: 36px;
@@ -193,7 +195,11 @@
       user-select: none;
     }
 
-    .note, .tip, .important, .warning, .caution {
+    .note,
+    .tip,
+    .important,
+    .warning,
+    .caution {
       position: relative;
       padding: 32px 32px 32px 64px;
       font-family: $base-font-family;
@@ -232,18 +238,24 @@
   }
 
   @media (max-width: $desktop) {
+
     .post__content,
     .page__content {
-      .js-reframe, img {
+
+      .js-reframe,
+      img {
         border-radius: 20px;
       }
     }
   }
 
   @media (max-width: $mobile) {
+
     .post__content,
     .page__content {
-      .js-reframe, img {
+
+      .js-reframe,
+      img {
         border-radius: 12px;
       }
     }

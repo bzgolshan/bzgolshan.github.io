@@ -5,6 +5,15 @@
   @media (max-width: $desktop) {
     margin: 32px 0;
   }
+
+  &.small {
+    margin: 32px 0;
+  }
+
+  &.compact {
+    max-width: 50%;
+    margin: 32px auto;
+  }
 }
 
 .gallery {
